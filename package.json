@@ -1,0 +1,16 @@
+{
+  "name": "ts-import-json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "typescript": "^3.0.1"
+  },
+  "dependencies": {
+    "ajv": "^6.5.2"
+  }
+}
